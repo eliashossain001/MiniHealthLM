@@ -1,0 +1,26 @@
+# ========== Python ==========
+__pycache__/
+*.py[cod]
+*.so
+*.log
+*.tmp
+*.DS_Store
+.ipynb_checkpoints/
+
+# ========== Data ==========
+data/corpus.pdf
+data/corpus.txt
+
+# Keep tokenizer artifacts
+!data/tokenizer/
+!data/tokenizer/vocab.json
+!data/tokenizer/merges.txt
+
+# ========== Checkpoints ==========
+checkpoints/
+*.pt
+
+# ========== VS Code & IDEs ==========
+.vscode/
+.idea/
+*.swp
